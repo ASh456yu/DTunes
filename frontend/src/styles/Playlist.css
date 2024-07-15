@@ -1,0 +1,46 @@
+.playlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playlists {
+    width: 95%;
+    display: flex;
+    background-color: rgb(131, 122, 122);
+    min-height: 30px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.playlist-name{
+    margin: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.input-playlist{
+    margin: 10px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.add-playlist{
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+
+.view-more{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    background-color: aliceblue;
+    transform: translate(-60px,-30px);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+

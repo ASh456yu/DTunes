@@ -1,0 +1,68 @@
+.song-img {
+    max-width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.song-info {
+    margin: 10px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.song-title {
+    margin: 0;
+}
+
+.play-icon {
+    margin: 30px;
+    cursor: pointer;
+}
+
+.audio-control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/* .main-control {
+    position: relative;
+    right: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 35%;
+} */
+
+.progress-bar-back{
+    background-color: rgb(117, 112, 112);
+    width: 98%;
+    height: 2px;
+}
+
+.progress-bar-progress{
+    height: 2px;
+    background-color: red;
+}
+
+.all-playlists{
+    width: 200px;
+    height: 80px;
+    background-color: aliceblue;
+    position: absolute;
+    border-radius: 10px;
+    overflow: scroll;
+    scrollbar-width: none;
+    color: black;
+    display: none;
+    flex-direction: column;
+}
+
+

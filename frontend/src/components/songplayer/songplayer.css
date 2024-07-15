@@ -1,0 +1,27 @@
+.song-player {
+    position: absolute;
+    bottom: 1%;
+    left: calc(50% - 225px);
+    width: 500px;
+    height: 60px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.song-player-icon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.song-player-title{
+    color: black;
+    width: 70%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    overflow-y: hidden;
+    user-select: none;
+    cursor: pointer;
+}

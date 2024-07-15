@@ -1,0 +1,31 @@
+a {
+    text-decoration: none !important;
+}
+
+.btn-body {
+    height: 80px;
+    width: 100px;
+    border-radius: 20px;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+    transition: all 0.2s ease;
+}
+
+.btn-body:hover{
+    color: white;
+}
+
+.btn-body.active {
+    background-color: rgb(215, 138, 138);
+    color: white;
+    transform: scale(1.05);
+}
+
+.btn-title {
+    margin: 4px auto;
+    font-weight: 600;
+    font-size: 12px;
+}

@@ -1,0 +1,13 @@
+.individualP{
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+.added_to_playlist{
+    margin-left: 40px;
+}
+
+.nadded_to_playlist{
+    margin-left: 40px;
+}
